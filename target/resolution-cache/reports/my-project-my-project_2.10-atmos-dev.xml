@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="my-project"
+		module="my-project_2.10"
+		revision="1.0"
+		conf="atmos-dev"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, atmos-dev, atmos-console, atmos-trace-compile, atmos-weave, atmos-sigar"
+		date="20140319142708"/>
+	<dependencies>
+		<module organisation="com.typesafe.atmos" name="atmos-dev">
+			<revision name="1.2.0" status="release" pubdate="20130717212216" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="2224" time="0" location="/Users/corydobson/.ivy2/cache/com.typesafe.atmos/atmos-dev/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.2.0/atmos-dev-1.2.0.pom"/>
+				<caller organisation="my-project" name="my-project_2.10" conf="atmos-dev" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="atmos-dev" type="jar" ext="jar" status="no" details="" size="4191128" time="0" location="/Users/corydobson/.ivy2/cache/com.typesafe.atmos/atmos-dev/jars/atmos-dev-1.2.0.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/atmos/atmos-dev/1.2.0/atmos-dev-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

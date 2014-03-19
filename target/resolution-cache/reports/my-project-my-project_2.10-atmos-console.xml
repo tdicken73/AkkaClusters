@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="my-project"
+		module="my-project_2.10"
+		revision="1.0"
+		conf="atmos-console"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, atmos-dev, atmos-console, atmos-trace-compile, atmos-weave, atmos-sigar"
+		date="20140319142708"/>
+	<dependencies>
+		<module organisation="com.typesafe.console" name="console-solo">
+			<revision name="1.2.0" status="release" pubdate="20130717212219" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+				<metadata-artifact status="no" details="" size="2235" time="0" location="/Users/corydobson/.ivy2/cache/com.typesafe.console/console-solo/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.2.0/console-solo-1.2.0.pom"/>
+				<caller organisation="my-project" name="my-project_2.10" conf="atmos-console" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="console-solo" type="jar" ext="jar" status="no" details="" size="8941651" time="0" location="/Users/corydobson/.ivy2/cache/com.typesafe.console/console-solo/jars/console-solo-1.2.0.jar">
+						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/console/console-solo/1.2.0/console-solo-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

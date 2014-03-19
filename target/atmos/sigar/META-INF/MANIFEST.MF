@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Typesafe Inc.
+Implementation-Title: atmos-sigar-libs
+Implementation-Version: 1.2.0
+Implementation-Vendor-Id: com.typesafe.atmos
+Specification-Vendor: Typesafe Inc.
+Specification-Title: atmos-sigar-libs
+Specification-Version: 1.2.0
+
