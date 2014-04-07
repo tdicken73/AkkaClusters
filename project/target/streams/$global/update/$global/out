@@ -1,11 +1,11 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/corydobson/Documents/java_workspace/My%20Project/project/}my-project-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#my-project-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/corydobson/Documents/java_workspace/LightSpeed/project/}lightspeed-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#lightspeed-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving default#global-plugins;0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: default#global-plugins;0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m	found default#global-plugins;0.0 in inter-project[0m
@@ -56,16 +56,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-atmos;0.1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-atmos;0.1.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-atmos;0.1.2[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbt#sbt-atmos;0.1.2[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe.sbt#sbt-atmos;0.1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
@@ -88,12 +88,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
@@ -116,20 +116,20 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31305f9c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70940b36[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.1 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.1[0m
@@ -659,11 +659,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-sbt#interface;0.13.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
@@ -692,14 +692,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
@@ -1013,10 +1013,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-sbt#interface;0.13.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
@@ -1039,14 +1039,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#global-plugins;0.0->com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0->com.typesafe.sbteclipse#sbteclipse-core;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
@@ -1075,14 +1075,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.4.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.1 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
@@ -1396,18 +1396,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-lang#scala-library;2.10.3 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.1->org.scala-sbt#interface;0.13.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#my-project-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#lightspeed-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
@@ -1425,8 +1425,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
@@ -1441,12 +1441,12 @@
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#my-project-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/default/my-project-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#lightspeed-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/default/lightspeed-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbt#sbt-atmos;0.1.2!sbt-atmos.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.4.0!sbteclipse-plugin.jar[0m
@@ -1501,19 +1501,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.1!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1470ms :: artifacts dl 41ms[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT compile produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT runtime produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT test produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT provided produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT optional produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT compile-internal produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT runtime-internal produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT test-internal produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT plugin produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT sources produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT docs produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT pom produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#my-project-build;0.1-SNAPSHOT scala-tool produced in /Users/corydobson/Documents/java_workspace/My Project/project/target/resolution-cache/reports/default-my-project-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1470ms resolve - 41ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 682ms :: artifacts dl 28ms[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT compile produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT runtime produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT test produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT provided produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT optional produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT compile-internal produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT runtime-internal produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT test-internal produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT plugin produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT sources produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT docs produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT pom produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#lightspeed-build;0.1-SNAPSHOT scala-tool produced in /Users/corydobson/Documents/java_workspace/LightSpeed/project/target/resolution-cache/reports/default-lightspeed-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (682ms resolve - 28ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -4,7 +4,7 @@
 		module="my-project_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20140319142708"
+		publication="20140407150832"
 	>
 		<description>
 		My Project
@@ -42,7 +42,9 @@
 		<dependency org="com.typesafe.akka" name="akka-contrib_2.10" rev="2.2.0" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-testkit_2.10" rev="2.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.10" rev="1.9.1" conf="test->default(compile)"/>
+		<dependency org="org.fusesource.lmdbjni" name="lmdbjni-all" rev="99-master-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="io.spray" name="spray-can" rev="1.2-20130710" conf="compile->default(compile)"/>
+		<dependency org="io.spray" name="spray-json_2.10" rev="1.2.5" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.atmos" name="atmos-dev" rev="1.2.0" conf="atmos-dev->default(compile)"/>
 		<dependency org="com.typesafe.console" name="console-solo" rev="1.2.0" conf="atmos-console->default(compile)"/>
 		<dependency org="org.aspectj" name="aspectjweaver" rev="1.7.2" conf="atmos-weave->default(compile)"/>

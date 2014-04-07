@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/corydobson/Documents/java_workspace/My%20Project/}my-project...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/corydobson/Documents/java_workspace/LightSpeed/}lightspeed...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: my-project#my-project_2.10;1.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, atmos-dev, atmos-console, atmos-trace-compile, atmos-weave, atmos-sigar][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2174650c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53fddddb[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.1 in sbt-chain[0m
@@ -165,6 +165,145 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/corydobson/.ivy2/local/org.fusesource.lmdbjni/lmdbjni-all/99-master-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/lmdbjni-all-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/lmdbjni-all-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/lmdbjni-all-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/lmdbjni-all-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: no ivy file found for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[99-master-20130507.185246-2] org/fusesource/lmdbjni#lmdbjni-all;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.fusesource.com/nexus/content/groups/public-snapshots/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/lmdbjni-all-99-master-20130507.185246-2.pom[0m
+[0m[[0mdebug[0m] [0m	FuseSource Community Snapshot Repository: found md file for org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.fusesource.com/nexus/content/groups/public-snapshots/org/fusesource/lmdbjni/lmdbjni-all/99-master-SNAPSHOT/lmdbjni-all-99-master-20130507.185246-2.pom (99-master-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/corydobson/.ivy2/local/org.fusesource.lmdbjni/lmdbjni/99-master-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/lmdbjni-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/lmdbjni-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/lmdbjni-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/lmdbjni-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: no ivy file found for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[99-master-20130507.184743-3] org/fusesource/lmdbjni#lmdbjni;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.fusesource.com/nexus/content/groups/public-snapshots/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/lmdbjni-99-master-20130507.184743-3.pom[0m
+[0m[[0mdebug[0m] [0m	FuseSource Community Snapshot Repository: found md file for org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.fusesource.com/nexus/content/groups/public-snapshots/org/fusesource/lmdbjni/lmdbjni/99-master-SNAPSHOT/lmdbjni-99-master-20130507.184743-3.pom (99-master-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.hawtjni#hawtjni-runtime;1.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.hawtjni#hawtjni-runtime;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.hawtjni#hawtjni-runtime;1.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.hawtjni#hawtjni-runtime;1.6[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.hawtjni#hawtjni-runtime;1.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/corydobson/.ivy2/local/org.fusesource.lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/lmdbjni-osx64-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/lmdbjni-osx64-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/lmdbjni-osx64-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/lmdbjni-osx64-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: no ivy file found for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[99-master-20130507.184836-2] org/fusesource/lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.fusesource.com/nexus/content/groups/public-snapshots/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/lmdbjni-osx64-99-master-20130507.184836-2.pom[0m
+[0m[[0mdebug[0m] [0m	FuseSource Community Snapshot Repository: found md file for org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.fusesource.com/nexus/content/groups/public-snapshots/org/fusesource/lmdbjni/lmdbjni-osx64/99-master-SNAPSHOT/lmdbjni-osx64-99-master-20130507.184836-2.pom (99-master-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /Users/corydobson/.ivy2/local/org.fusesource.lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/lmdbjni-linux64-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/lmdbjni-linux64-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/lmdbjni-linux64-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/lmdbjni-linux64-99-master-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: no ivy file found for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m[99-master-20130507.171359-1] org/fusesource/lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.fusesource.com/nexus/content/groups/public-snapshots/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/lmdbjni-linux64-99-master-20130507.171359-1.pom[0m
+[0m[[0mdebug[0m] [0m	FuseSource Community Snapshot Repository: found md file for org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.fusesource.com/nexus/content/groups/public-snapshots/org/fusesource/lmdbjni/lmdbjni-linux64/99-master-SNAPSHOT/lmdbjni-linux64-99-master-20130507.171359-1.pom (99-master-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving io.spray#spray-can;1.2-20130710 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#spray-can;1.2-20130710 {compile=[default(compile)]}[0m
@@ -252,6 +391,36 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.spray#spray-json_2.10;1.2.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.spray#spray-json_2.10;1.2.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/corydobson/.ivy2/local/io.spray/spray-json_2.10/1.2.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for io.spray#spray-json_2.10;1.2.5[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.pom (1.2.5)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] io.spray#spray-json_2.10;1.2.5!spray-json_2.10.pom(pom.original) (347ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/corydobson/.ivy2/local/io.spray/spray-json_2.10/1.2.5/jars/spray-json_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.jar[0m
+[0m[[0mdebug[0m] [0m	found io.spray#spray-json_2.10;1.2.5 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [compile][0m
@@ -342,6 +511,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->compile][0m
@@ -393,6 +590,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [runtime][0m
@@ -484,6 +696,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->compile][0m
@@ -535,6 +775,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;1.9.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;1.9.1 {test=[default(compile)]}[0m
@@ -677,6 +932,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->compile][0m
@@ -728,6 +1011,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -821,6 +1119,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->compile][0m
@@ -872,6 +1198,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for my-project#my-project_2.10;1.0 [test-internal][0m
@@ -965,6 +1306,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->compile][0m
@@ -1016,6 +1385,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->compile][0m
@@ -1229,6 +1613,34 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2.0->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT->org.fusesource.hawtjni#hawtjni-runtime;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT->org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->compile][0m
@@ -1280,6 +1692,21 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-can;1.2-20130710->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-can;1.2-20130710 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.scala-lang#scala-library;2.10.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies io.spray#spray-json_2.10;1.2.5->org.parboiled#parboiled-scala_2.10;1.1.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->io.spray#spray-json_2.10;1.2.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.atmos#trace-akka-2.2.0_2.10;1.2.0 [atmos-trace-compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.atmos#trace-akka-2.2.0_2.10;1.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.atmos#trace-akka-2.2.0_2.10;1.2.0 {atmos-trace-compile=[default(compile)]}[0m
@@ -1446,12 +1873,19 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.atmos#atmos-sigar-libs;1.2.0 [atmos-sigar->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.atmos#atmos-sigar-libs;1.2.0 [atmos-sigar->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies my-project#my-project_2.10;1.0->com.typesafe.atmos#atmos-sigar-libs;1.2.0 [atmos-sigar->master][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/my-project/my-project_2.10/1.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/my-project/my-project_2.10/1.0/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-contrib_2.10;2.2.0!akka-contrib_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.10;2.2.0!akka-testkit_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.lmdbjni#lmdbjni-all;99-master-SNAPSHOT!lmdbjni-all.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-can;1.2-20130710!spray-can.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.2.5/spray-json_2.10-1.2.5.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.spray#spray-json_2.10;1.2.5!spray-json_2.10.jar (824ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.2.0!akka-remote_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.10;2.2.0!akka-cluster_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar[0m
@@ -1461,6 +1895,10 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.2!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sandrogrzicic#scalabuff-runtime_2.10;1.2.0!scalabuff-runtime_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.lmdbjni#lmdbjni;99-master-SNAPSHOT!lmdbjni.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.lmdbjni#lmdbjni-osx64;99-master-SNAPSHOT!lmdbjni-osx64.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.lmdbjni#lmdbjni-linux64;99-master-SNAPSHOT!lmdbjni-linux64.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.hawtjni#hawtjni-runtime;1.6!hawtjni-runtime.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-io;1.2-20130710!spray-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-http;1.2-20130710!spray-http.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.spray#spray-util;1.2-20130710!spray-util.jar[0m
@@ -1486,24 +1924,24 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.15!log4j.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjweaver;1.7.2!aspectjweaver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.atmos#atmos-sigar-libs;1.2.0!atmos-sigar-libs.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1319ms :: artifacts dl 41ms[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 compile produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 runtime produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 test produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 provided produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 optional produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 compile-internal produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 runtime-internal produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 test-internal produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 plugin produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 sources produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 docs produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 pom produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 scala-tool produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-dev produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-atmos-dev.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-console produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-atmos-console.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-trace-compile produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-atmos-trace-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-weave produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-atmos-weave.xml[0m
-[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-sigar produced in /Users/corydobson/Documents/java_workspace/My Project/target/resolution-cache/reports/my-project-my-project_2.10-atmos-sigar.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1319ms resolve - 41ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7575ms :: artifacts dl 864ms[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 compile produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 runtime produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 test produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 provided produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 optional produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 compile-internal produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 runtime-internal produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 test-internal produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 plugin produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 sources produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 docs produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 pom produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 scala-tool produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-dev produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-atmos-dev.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-console produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-atmos-console.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-trace-compile produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-atmos-trace-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-weave produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-atmos-weave.xml[0m
+[0m[[0mdebug[0m] [0m	report for my-project#my-project_2.10;1.0 atmos-sigar produced in /Users/corydobson/Documents/java_workspace/LightSpeed/target/resolution-cache/reports/my-project-my-project_2.10-atmos-sigar.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (7575ms resolve - 864ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

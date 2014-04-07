@@ -1,24 +1,19 @@
-[0m[[0minfo[0m] [0mRunning main.TransformationBackend [0m
-[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
-[0m[[0mdebug[0m] [0m  Classpath:[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/Documents/java_workspace/My Project/target/scala-2.10/classes[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/com.typesafe.akka/akka-contrib_2.10/jars/akka-contrib_2.10-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/bundles/akka-remote_2.10-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.2.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/com.typesafe/config/bundles/config-1.0.2.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/io.netty/netty/bundles/netty-3.6.6.Final.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.4.1.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/bundles/akka-cluster_2.10-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/net.sandrogrzicic/scalabuff-runtime_2.10/jars/scalabuff-runtime_2.10-1.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/bundles/akka-testkit_2.10-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/io.spray/spray-can/jars/spray-can-1.2-20130710.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/io.spray/spray-io/jars/spray-io-1.2-20130710.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/io.spray/spray-util/jars/spray-util-1.2-20130710.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/io.spray/spray-http/jars/spray-http-1.2-20130710.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/org.parboiled/parboiled-scala_2.10/bundles/parboiled-scala_2.10-1.1.5.jar[0m
-[0m[[0mdebug[0m] [0m	/Users/corydobson/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.5.jar[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread New I/O boss #3 to terminate.[0m
+[0m[[0minfo[0m] [0mRunning main.TransformationFrontend 2551[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.057] [main] [Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.238] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:2551][0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.251] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.313] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Registered cluster JMX MBean [akka:type=Cluster][0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.314] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.318] [ClusterSystem-akka.actor.default-dispatcher-12] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Metrics will be retreived from MBeans, and may be incorrect on some platforms. To increase metric accuracy add the 'sigar.jar' to the classpath and the appropriate platform-specific native libary to 'java.library.path'. Reason: java.lang.ClassNotFoundException: org.hyperic.sigar.Sigar[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.322] [ClusterSystem-akka.actor.default-dispatcher-12] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.360] [main] [Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.372] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://default@127.0.0.1:56231][0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.375] [main] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:56231] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.378] [main] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:56231] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.378] [default-akka.actor.default-dispatcher-4] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:56231] - Metrics will be retreived from MBeans, and may be incorrect on some platforms. To increase metric accuracy add the 'sigar.jar' to the classpath and the appropriate platform-specific native libary to 'java.library.path'. Reason: java.lang.ClassNotFoundException: org.hyperic.sigar.Sigar[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.378] [default-akka.actor.default-dispatcher-4] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:56231] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:50.944] [default-akka.actor.default-dispatcher-5] [akka://default/user/IO-HTTP/listener-0] Bound to localhost/127.0.0.1:8080[0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:55.370] [ClusterSystem-akka.actor.default-dispatcher-14] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Node [akka.tcp://ClusterSystem@127.0.0.1:2551] is JOINING, roles [frontend][0m
+[0m[[0minfo[0m] [0m[WARN] [04/07/2014 15:08:55.521] [default-akka.actor.default-dispatcher-21] [akka://default/system/cluster/core/daemon] Trying to join member with wrong ActorSystem name, but was ignored, expected [default] but was [ClusterSystem][0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:08:56.360] [ClusterSystem-akka.actor.default-dispatcher-2] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:2551] - Leader is moving node [akka.tcp://ClusterSystem@127.0.0.1:2551] to [Up][0m
+[0m[[0minfo[0m] [0m[INFO] [04/07/2014 15:09:04.994] [ClusterSystem-akka.actor.default-dispatcher-3] [akka://ClusterSystem/user/frontend/backend] received: 1-job[0m

@@ -18,3 +18,13 @@ atmos:run
 eclipse
 run 
 run
+compile
+eclipse
+exit;
+ls
+exit
+eclipse
+exit;
+exit
+run
+eclipse
