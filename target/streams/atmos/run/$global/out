@@ -1,22 +1,24 @@
 [0m[[0minfo[0m] [0mStarting Atmos and Typesafe Console ...[0m
 [0m[[0minfo[0m] [0mRunning main.TransformationFrontend [0m
-[0m[[31merror[0m] [0mobjc[36118]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/bin/java and /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:10.486] [main] [Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:10.904] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:50021][0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:10.963] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:50021] - Starting up...[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:11.205] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:50021] - Registered cluster JMX MBean [akka:type=Cluster][0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:11.205] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:50021] - Started up successfully[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:11.293] [main] [Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:11.305] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://default@127.0.0.1:50023][0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:11.308] [main] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:50023] - Starting up...[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:11.312] [main] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:50023] - Started up successfully[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:11.429] [ClusterSystem-akka.actor.default-dispatcher-12] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:50021] - Metrics collection has started successfully[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:11.429] [default-akka.actor.default-dispatcher-3] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:50023] - Metrics collection has started successfully[0m
-[0m[[0minfo[0m] [0m[WARN] [04/03/2014 13:21:12.034] [default-akka.actor.default-dispatcher-4] [akka://default/system/cluster/core/daemon] Trying to join member with wrong ActorSystem name, but was ignored, expected [default] but was [ClusterSystem][0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:21:12.176] [ClusterSystem-akka.actor.default-dispatcher-5] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:50021] - Welcome from [akka.tcp://ClusterSystem@127.0.0.1:2551][0m
-[0m[[0minfo[0m] [0m[WARN] [04/03/2014 13:21:12.838] [default-akka.actor.default-dispatcher-14] [akka://default/user/IO-HTTP/listener-0] Bind to localhost/127.0.0.1:8080 failed[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:22:10.976] [ClusterSystem-akka.actor.default-dispatcher-12] [akka://ClusterSystem/user/frontend/backend] received: 25-job[0m
-[0m[[0minfo[0m] [0m[INFO] [04/03/2014 13:22:11.752] [ClusterSystem-akka.actor.default-dispatcher-15] [akka://ClusterSystem/user/frontend/backend] received: 50-job[0m
-[0m[[0minfo[0m] [0mStopping Typesafe Console[0m
+[0m[[31merror[0m] [0mobjc[10348]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/bin/java and /Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/jre/lib/libinstrument.dylib. One of the two will be used. Which one is undefined.[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:48.486] [main] [Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.087] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://ClusterSystem@127.0.0.1:55807][0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.184] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:55807] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.518] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:55807] - Registered cluster JMX MBean [akka:type=Cluster][0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.518] [main] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:55807] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.699] [main] [Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.717] [main] [Remoting] Remoting started; listening on addresses :[akka.tcp://default@127.0.0.1:55809][0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.720] [main] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:55809] - Starting up...[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.725] [main] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:55809] - Started up successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.918] [ClusterSystem-akka.actor.default-dispatcher-5] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:55807] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:49.918] [default-akka.actor.default-dispatcher-5] [Cluster(akka://default)] Cluster Node [akka.tcp://default@127.0.0.1:55809] - Metrics collection has started successfully[0m
+[0m[[0minfo[0m] [0m[WARN] [04/09/2014 14:05:51.083] [default-akka.actor.default-dispatcher-18] [akka://default/system/cluster/core/daemon] Trying to join member with wrong ActorSystem name, but was ignored, expected [default] but was [ClusterSystem][0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:05:51.265] [ClusterSystem-akka.actor.default-dispatcher-3] [Cluster(akka://ClusterSystem)] Cluster Node [akka.tcp://ClusterSystem@127.0.0.1:55807] - Welcome from [akka.tcp://ClusterSystem@127.0.0.1:2551][0m
+[0m[[0minfo[0m] [0m[WARN] [04/09/2014 14:05:51.902] [default-akka.actor.default-dispatcher-18] [akka://default/user/IO-HTTP/listener-0] Bind to localhost/127.0.0.1:8080 failed[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:06:16.223] [ClusterSystem-akka.actor.default-dispatcher-5] [akka://ClusterSystem/user/frontend/backend] received: 110-job[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:06:16.934] [ClusterSystem-akka.actor.default-dispatcher-12] [akka://ClusterSystem/user/frontend/backend] received: 130-job[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:06:17.623] [ClusterSystem-akka.actor.default-dispatcher-2] [akka://ClusterSystem/user/frontend/backend] received: 150-job[0m
+[0m[[0minfo[0m] [0m[INFO] [04/09/2014 14:06:18.335] [ClusterSystem-akka.actor.default-dispatcher-16] [akka://ClusterSystem/user/frontend/backend] received: 170-job[0m
 [0m[[0minfo[0m] [0mStopping Atmos[0m
+[0m[[0minfo[0m] [0mStopping Typesafe Console[0m
 [0m[[0minfo[0m] [0mStopping main.TransformationFrontend[0m

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="false" debug="false">
-  <property scope="local" name="logDir" value="/Users/corydobson/Documents/java_workspace/My Project/target/atmos/log"/>
+  <property scope="local" name="logDir" value="/Users/corydobson/Documents/java_workspace/LightSpeed/target/atmos/log"/>
   <property scope="local" name="logName" value="console"/>
   <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
     <File>${logDir}/${logName}.log</File>

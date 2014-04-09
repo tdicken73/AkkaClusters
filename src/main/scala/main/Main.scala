@@ -26,6 +26,8 @@ import akka.actor.ActorSelection.toScala
 import akka.actor.actorRef2Scala
 import akka.cluster.ClusterEvent.MemberUp
 import spray.http.ContentType.apply
+import scala.io.Source
+
 //#imports
 
 //#messages
@@ -76,24 +78,26 @@ class TransformationFrontend extends Actor with SprayActorLogging {
   }
 
   def index(s: Int) = {  
-    
+	/*
     HttpResponse(
-    /*entity = HttpEntity(`text/html`,
+    entity = HttpEntity(`text/html`,
+    		Source.fromFile("index.html").mkString
+      ) 
+  )
+  */ 
+  HttpResponse(
+    entity = HttpEntity(`text/html`,
       <html>
         <body>
           <h1>Akka Cluster!</h1>
           <p>{s} workers available</p>
         </body>
       </html>.toString()
-    )*/
-        
-     entity = HttpEntity(`application/json`, 
-         
-         "{'name':'testing'}"
-)
-     
- 
-  )}
+      ) 
+  )
+  
+  
+  }
 
   
   
@@ -154,14 +158,13 @@ class TransformationFrontend extends Actor with SprayActorLogging {
         case TransformationJob(text) =>
             	 originalSender ! lightSpeedResponse(text)      
       }  
-        
+    
+      /*    
      case HttpRequest(POST, Uri.Path("/lightspeed"), _, _body, _) =>  
       jobCounter += 1
       val future : Future[TransformationJob] = (nextWorker ? new TransformationJob(jobCounter + "-job")).mapTo[TransformationJob]
       val originalSender = sender
       val source = "{'name': 'testing'}"
-        
-      
         
       val jsonAsst = HttpResponse(entity= HttpEntity(`application/json`, JsonParser(source).toString()))
       
@@ -169,7 +172,7 @@ class TransformationFrontend extends Actor with SprayActorLogging {
         case TransformationJob(text) =>
             	 originalSender ! lightSpeedResponse(text)      
       }  
-        
+        */
       
     case HttpRequest(GET, Uri.Path("/lightspeed/put"), _, _, _) =>   
       

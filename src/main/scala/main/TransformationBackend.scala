@@ -1,6 +1,7 @@
 package main
 
 import com.typesafe.config.ConfigFactory
+
 import akka.actor.ActorSystem
 import akka.cluster.ClusterEvent.CurrentClusterState
 import akka.cluster.Cluster
